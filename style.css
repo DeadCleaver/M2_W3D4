@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: Roboto;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding: 1em 0 1em 0;
+    text-align: center;
+    background-color:whitesmoke;
+}
+
+img.card-image {
+    height: 300px;
+    object-fit: cover;
+
+}
+
+div.js-buttons {
+    display flex;
+    padding: 1em;
+    justify-content: center;
+}
+
+div.js-buttons button {
+    margin: 0.5em;
+    padding: 0.2em;
+}
+
+div.tee-gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+div.tee-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: darkgrey;
+    margin: 1em;
+}
+
+div.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+div.tee-card, img.card-image, h3.tee-title, div.tee-description, div.price-tag, button.card-button, div.input-form {
+    padding: 0.2em;
+}
+
+
+div.price-tag {
+    font-weight:700;
+}
+
+div.input-form {
+    display: flex;
+}
+
+input.comment-box {
+    height: 2em;
+    width: 70%;
+    margin-right: 1em;
+}
+
+input.comment-button {
+    padding: 0.3em;
+}
+
+footer {
+    padding: 1em 0 1em 0;
+    text-align: center;
+    background-color:whitesmoke;
+}
+
+.hidden-image {
+    display: none;
+}
